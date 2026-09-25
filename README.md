@@ -56,20 +56,20 @@ Below is a comparative breakdown of commercial FP&A platforms sorted by company 
 
 ## 💻 Open-Source FP&A & Analytics Projects
 
-Top open-source projects, semantic layers, business intelligence platforms, and financial modeling libraries used in modern open FP&A tech stacks, **sorted by GitHub Star count (descending)**:
+Top open-source projects, semantic layers, business intelligence platforms, and financial modeling libraries used in modern open FP&A tech stacks, **sorted by GitHub Stars_Count (descending)**:
 
-| Rank 🏆 | Project Name 🛠️ | GitHub Star Count ⭐ | Description 📝 |
+| Rank 🏆 | Project Name 🛠️ | GitHub Stars_Count ⭐ | Description 📝 |
 | :---: | --- | :---: | --- |
-| 1 | **[Apache Superset](https://github.com/apache/superset)** | [![Star Badge](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers) | Enterprise-ready open-source data exploration and visualization platform widely paired with data warehouses for FP&A reporting. |
-| 2 | **[Metabase](https://github.com/metabase/metabase)** | [![Star Badge](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers) | Intuitive open-source business intelligence tool used by finance and operations teams for self-serve analysis and lightweight forecasting. |
-| 3 | **[dbt-core](https://github.com/dbt-labs/dbt-core)** | [![Star Badge](https://img.shields.io/github/stars/dbt-labs/dbt-core?style=social&color=white)](https://github.com/dbt-labs/dbt-core/stargazers) | Open-source data transformation layer (SQL/Python) for modeling actuals, variance analysis, and preparing financial metrics in data warehouses. |
-| 4 | **[Cube (Semantic Layer)](https://github.com/cube-js/cube)** | [![Star Badge](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers) | Universal open-source semantic and metrics layer that standardizes KPIs, financial definitions, and security rules across planning workflows. |
-| 5 | **[Actual Budget](https://github.com/actualbudget/actual-server)** | [![Star Badge](https://img.shields.io/github/stars/actualbudget/actual-server?style=social&color=white)](https://github.com/actualbudget/actual-server/stargazers) | Super-fast, privacy-focused open-source local/self-hosted budgeting engine with zero-based budgeting principles. |
-| 6 | **[Firefly III](https://github.com/firefly-iii/firefly-iii)** | [![Star Badge](https://img.shields.io/github/stars/firefly-iii/firefly-iii?style=social&color=white)](https://github.com/firefly-iii/firefly-iii/stargazers) | Full-featured self-hosted manager for tracking budgets, recurring cash flows, and expense forecasting. |
-| 7 | **[FinancePy](https://github.com/financepy/financepy)** | [![Star Badge](https://img.shields.io/github/stars/financepy/financepy?style=social&color=white)](https://github.com/financepy/financepy/stargazers) | Python open-source financial library for valuation, cash flow modeling, driver analysis, and quantitative financial planning. |
-| 8 | **[PyPika](https://github.com/kayak/pypika)** | [![Star Badge](https://img.shields.io/github/stars/kayak/pypika?style=social&color=white)](https://github.com/kayak/pypika/stargazers) | Python SQL query builder used for programmatic query generation in custom financial modeling and scenario planning engines. |
-| 9 | **[FinQuant](https://github.com/pypa/finquant)** | [![Star Badge](https://img.shields.io/github/stars/pypa/finquant?style=social&color=white)](https://github.com/pypa/finquant/stargazers) | Open-source Python library for financial portfolio management, risk analysis, and scenario optimization. |
-| 10 | **[Open-Sourced Financial Modeling Notebooks](https://github.com/topics/financial-modeling)** | [![Star Badge](https://img.shields.io/github/stars/topics/financial-modeling?style=social&color=white)](https://github.com/topics/financial-modeling/stargazers) | Community-driven Jupyter notebooks and R scripts for 3-statement modeling, DCF valuations, and Monte Carlo forecasts. |
+| 1 | **[Apache Superset](https://github.com/apache/superset)** | [![Stars_Badge](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers) | Enterprise-ready open-source data exploration and visualization platform widely paired with data warehouses for FP&A reporting. |
+| 2 | **[Metabase](https://github.com/metabase/metabase)** | [![Stars_Badge](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers) | Intuitive open-source business intelligence tool used by finance and operations teams for self-serve analysis and lightweight forecasting. |
+| 3 | **[dbt-core](https://github.com/dbt-labs/dbt-core)** | [![Stars_Badge](https://img.shields.io/github/stars/dbt-labs/dbt-core?style=social&color=white)](https://github.com/dbt-labs/dbt-core/stargazers) | Open-source data transformation layer (SQL/Python) for modeling actuals, variance analysis, and preparing financial metrics in data warehouses. |
+| 4 | **[Cube (Semantic Layer)](https://github.com/cube-js/cube)** | [![Stars_Badge](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers) | Universal open-source semantic and metrics layer that standardizes KPIs, financial definitions, and security rules across planning workflows. |
+| 5 | **[Actual Budget](https://github.com/actualbudget/actual-server)** | [![Stars_Badge](https://img.shields.io/github/stars/actualbudget/actual-server?style=social&color=white)](https://github.com/actualbudget/actual-server/stargazers) | Super-fast, privacy-focused open-source local/self-hosted budgeting engine with zero-based budgeting principles. |
+| 6 | **[Firefly III](https://github.com/firefly-iii/firefly-iii)** | [![Stars_Badge](https://img.shields.io/github/stars/firefly-iii/firefly-iii?style=social&color=white)](https://github.com/firefly-iii/firefly-iii/stargazers) | Full-featured self-hosted manager for tracking budgets, recurring cash flows, and expense forecasting. |
+| 7 | **[FinancePy](https://github.com/financepy/financepy)** | [![Stars_Badge](https://img.shields.io/github/stars/financepy/financepy?style=social&color=white)](https://github.com/financepy/financepy/stargazers) | Python open-source financial library for valuation, cash flow modeling, driver analysis, and quantitative financial planning. |
+| 8 | **[PyPika](https://github.com/kayak/pypika)** | [![Stars_Badge](https://img.shields.io/github/stars/kayak/pypika?style=social&color=white)](https://github.com/kayak/pypika/stargazers) | Python SQL query builder used for programmatic query generation in custom financial modeling and scenario planning engines. |
+| 9 | **[FinQuant](https://github.com/pypa/finquant)** | [![Stars_Badge](https://img.shields.io/github/stars/pypa/finquant?style=social&color=white)](https://github.com/pypa/finquant/stargazers) | Open-source Python library for financial portfolio management, risk analysis, and scenario optimization. |
+| 10 | **[Open-Sourced Financial Modeling Notebooks](https://github.com/topics/financial-modeling)** | [![Stars_Badge](https://img.shields.io/github/stars/topics/financial-modeling?style=social&color=white)](https://github.com/topics/financial-modeling/stargazers) | Community-driven Jupyter notebooks and R scripts for 3-statement modeling, DCF valuations, and Monte Carlo forecasts. |
 
 ---
 
@@ -89,7 +89,7 @@ Contributions are welcome! Help us keep this FP&A resource complete and up to da
 
 1. 🍴 **Fork** this repository.
 2. 📝 **Add/edit** entries in `README.md` maintaining table formatting.
-3. 🔗 Include product name, live link, concise description, starting pricing, and star badge (if open-source).
+3. 🔗 Include product name, live link, concise description, starting pricing, and Stars_Badge (if open-source).
 4. 📬 **Open a Pull Request** with a detailed summary.
 
 ---
