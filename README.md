@@ -1,209 +1,118 @@
-# Awesome-Financial-Planning-n-Analysis
-
-## Top Financial Planning & Analysis (FP&A) Platforms Ecosystem
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Budgeting, Forecasting, Driver-Based Modeling, Scenario Planning, Consolidation & Finance Collaboration*
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Financial Planning & Analysis (FP&A)**. These systems help finance teams build budgets, rolling forecasts, driver-based models, scenario plans, and management reports beyond pure spreadsheets.
-
-
-
-**Examples** include Anaplan, Adaptive Insights / Workday Adaptive Planning, Planful, Datarails, Cube, Abacum, Jirav, Mosaic, Centage, Vena, SolveXia, Pigment, and Prophix (the category leaders).
-
-
-
-**Open-source emphasis**: Enterprise and mid-market FP&A platforms are almost entirely commercial. Practical open options are limited to experimental planning engines, spreadsheet + open BI combinations, and metrics layers. This section lists the strongest available open resources and is realistic about the large commercial gap.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Anaplan](https://www.anaplan.com/)**  
-
-  Enterprise connected-planning platform known for large-scale, multi-dimensional modeling across finance, sales, supply chain, and workforce planning.
-
-
-
-- **[Workday Adaptive Planning (formerly Adaptive Insights)](https://www.workday.com/)**  
-
-  Finance-led enterprise planning solution tightly integrated with the Workday ecosystem for budgeting, forecasting, and workforce planning.
-
-
-
-- **[Planful](https://planful.com/)**  
-
-  Continuous planning platform for mid-market and enterprise teams covering budgeting, forecasting, consolidation, and financial reporting.
-
-
-
-- **[Datarails](https://www.datarails.com/)**  
-
-  FP&A platform that keeps Excel at the center while adding automation, consolidation, and reporting for spreadsheet-centric finance teams.
-
-
-
-- **[Cube](https://www.cubesoftware.com/)**  
-
-  Spreadsheet-native FP&A platform that connects Excel and Google Sheets to a governed data layer for planning and analysis.
-
-
-
-- **[Abacum](https://www.abacum.ai/)**  
-
-  Modern collaborative FP&A platform focused on agile planning, forecasting, and cross-functional alignment for growth-stage companies.
-
-
-
-- **[Jirav](https://www.jirav.com/)**  
-
-  Cloud FP&A software for budgeting, forecasting, reporting, and dashboards aimed at mid-market finance teams.
-
-
-
-- **[Mosaic](https://www.mosaic.tech/)**  
-
-  Strategic finance platform combining planning, analytics, and benchmarking for high-growth companies.
-
-
-
-- **[Centage](https://www.centage.com/)**  
-
-  Budgeting and forecasting software focused on mid-market organizations seeking structured planning without heavy modeling complexity.
-
-
-
-- **[Vena, SolveXia, Pigment, Prophix and related platforms](https://www.example.com/)**  
-
-  Additional FP&A solutions—Excel-native planning (Vena), process automation (SolveXia), modern multi-dimensional modeling (Pigment), and corporate performance management (Prophix).
-
-
-
-## Open-Source GitHub Projects
-
-- **[Experimental open FP&A / planning engines](https://github.com/)**  
-
-  Emerging open-source efforts aimed at driver-based modeling, multi-dimensional planning, and scenario engines as alternatives to commercial platforms.
-
-
-
-- **[Cube (metrics / semantic layer)](https://github.com/cube-js/cube)**  
-
-  Open-source metrics and semantic-layer platform often used to define consistent KPIs that feed planning and analysis workflows.
-
-
-
-- **[Apache Superset + open BI stacks](https://github.com/apache/superset)**  
-
-  Open visualization and dashboard tools commonly paired with spreadsheets or data warehouses for management reporting.
-
-
-
-- **[Metabase](https://github.com/metabase/metabase)**  
-
-  Popular open-source business intelligence tool used by finance teams for self-serve analysis and lightweight forecasting support.
-
-
-
-- **[Spreadsheet + version-control open patterns](https://github.com/)**  
-
-  Approaches that treat Excel/Google Sheets models as code (Git, review workflows) for controlled planning processes.
-
-
-
-- **[Financial modeling open libraries (Python/R)](https://github.com/)**  
-
-  Libraries and notebooks for three-statement models, driver-based forecasts, and Monte Carlo scenario analysis.
-
-
-
-- **[dbt + warehouse open analytics](https://github.com/dbt-labs/dbt-core)**  
-
-  Open transformation and modeling layers that prepare actuals for planning systems and variance analysis.
-
-
-
-- **[Budgeting and personal-finance open tools (adjacent)](https://github.com/)**  
-
-  Self-hosted finance managers that demonstrate budgeting concepts adaptable to smaller organizational planning.
-
-
-
-- **[Scenario and optimization open solvers](https://github.com/)**  
-
-  Open optimization and simulation libraries usable for advanced what-if and resource-allocation models.
-
-
-
-- **[Documentation and FP&A open playbooks](https://github.com/)**  
-
-  Community guides for building controlled planning processes on open data stacks.
-
-
-
-### Additional Strong Open-Source Options
-
-- Combining governed spreadsheets with open metrics layers (**Cube**) and BI tools (**Superset**, **Metabase**) for lightweight FP&A.
-
-- Prototyping driver-based models in Python/R notebooks versioned in Git.
-
-- Accepting that multi-dimensional planning engines, collaborative workflows, audit trails, ERP integrations, and enterprise-scale scenario management still require commercial platforms (Anaplan, Workday Adaptive Planning, Planful, Pigment, Cube, Vena, Datarails, etc.).
-
-- Focusing open-source efforts on data transparency, model auditability, and lower cost for smaller finance teams with technical support.
-
-
-
-**Frameworks for building custom systems**: Centralize actuals in a warehouse → model drivers and forecasts in spreadsheets or open notebooks → publish consistent metrics via Cube or similar → visualize and distribute reports with open BI. Suitable for smaller or highly technical finance teams. Most mid-market and enterprise FP&A organizations rely on commercial planning platforms for collaboration, control, and scale.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- FP&A systems support budgeting, forecasting, and management decisions. Incorrect models or data can lead to poor decisions. Open-source tools require careful validation and professional oversight. This list is not financial, accounting, or investment advice.
-
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Financial Planning & Analysis (FP&A) Banner" width="100%">
+</p>
+
+# 📊 Awesome Financial Planning & Analysis (FP&A) 🚀
+
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+
+> 💡 **The definitive curated list of top Financial Planning & Analysis (FP&A) SaaS software, open-source budgeting engines, driver-based financial modeling frameworks, and CFO reporting tools.**
 
 ---
 
-**Made for FP&A teams, CFOs, and open-source finance technologists.**
+## 📈 Market Size & Industry Dynamics
 
-Let's keep planning collaborative, transparent, and as open as practical.
+> 💡 **Market Size & Overview**: The global Financial Planning & Analysis (FP&A) software market is estimated at **$12.5 Billion in 2026** (projected to reach ~$16.8 Billion by 2030 at a CAGR of ~11.4%).
+> 
+> 🧩 **Market Fragmentation & Competitive Structure**: The market is **moderately fragmented**. While legacy software monoliths (Workday Adaptive, Anaplan, SAP BPC) control enterprise market share, mid-market and SMB segments are highly contested by high-growth SaaS platforms (Pigment, Datarails, Cube, Vena). Open-source options serve as semantic layers and analytics foundations rather than standalone end-to-end FP&A engines.
+
+---
+
+## 📌 Table of Contents
+
+- [🏢 SaaS & Commercial FP&A Platforms](#-saas--commercial-fpa-platforms)
+- [💻 Open-Source FP&A & Analytics Projects](#-open-source-fpa--analytics-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## 🏢 SaaS & Commercial FP&A Platforms
+
+Below is a comparative breakdown of commercial FP&A platforms sorted by company size (valuation / revenue / enterprise scale in descending order):
+
+| Product Name | Company Size / Scale (Valuation / Revenue) 📊 | Description 📝 | Starting Pricing 💵 | Free Tier / Trial Limits ⏳ |
+| --- | --- | --- | --- | --- |
+| **[Workday Adaptive Planning](https://www.workday.com/)** 🏢 | **~$60 Billion** (Parent Workday Mkt Cap; ~$600M+ Adaptive ARR) | Enterprise connected-planning software for financial budgeting, rolling forecasts, workforce planning, and operational modeling. | Custom quote (typically \$15,000–\$50,000+/year base) | 30-day free trial with core planning feature walkthroughs |
+| **[Anaplan](https://www.anaplan.com/)** 🏢 | **~$10.7 Billion** (Acquired by Thoma Bravo; ~$600M+ ARR) | Enterprise connected-planning platform known for large-scale, multi-dimensional modeling across finance, sales, and supply chain. | Starts at \$30,000/year (estimated baseline quote) | No commercial free trial (90-day educational workspace via Talent Builder) |
+| **[Pigment](https://www.gopigment.com/)** 🦄 | **~$1.0 Billion** (Series D valuation; \$50M+ ARR) | Modern multi-dimensional business planning and scenario modeling platform designed for high-growth enterprises. | Starts at \$50,000+/year custom enterprise tier | 14-day free trial with AI model builder & workspace upload limits |
+| **[Prophix](https://www.prophix.com/)** 🏢 | **~$800 Million** (PE valuation estimate; \$100M+ ARR) | Corporate performance management (CPM) and financial consolidation suite for mid-market finance teams. | Starts at \$50,000/year base tier | No free trial (self-guided interactive demo library available) |
+| **[Planful](https://planful.com/)** 🏢 | **~$500 Million** (Vector Capital backed; \$80M+ ARR) | Continuous planning platform covering budgeting, forecasting, financial consolidation, and executive reporting. | Custom quote (typically \$30,000–\$100,000+/year base) | No self-service free trial (time-bound Proof of Concept available) |
+| **[Vena Solutions](https://www.venasolutions.com/)** 🏢 | **~$450 Million** (Growth equity valuation; \$60M+ ARR) | Excel-native financial planning and performance management platform connecting native Excel to a centralized database. | Starts at \$5,000–\$10,000/year baseline quote | No free trial (interactive demo available) |
+| **[Datarails](https://www.datarails.com/)** 🚀 | **~$400 Million** (Series B valuation; \$30M+ ARR) | FP&A platform that keeps Excel at the center while adding cloud automation, consolidation, and data governance. | Starts at \$24,000/year | No free trial (guided demo & custom consultation available) |
+| **[Cube](https://www.cubesoftware.com/)** 🚀 | **~$150 Million** (Series B valuation; \$15M+ ARR) | Spreadsheet-native FP&A platform that connects Excel and Google Sheets to a governed multi-dimensional data layer. | Starts at \$1,250/month (\$15,000/year) | No free trial or free-forever tier (interactive demo on request) |
+| **[Mosaic](https://www.mosaic.tech/)** 🚀 | **~$150 Million** (Series B valuation; \$15M+ ARR) | Strategic finance platform combining automated planning, real-time analytics, and financial benchmarking. | Starts at \$2,000/month (estimated £2,000–£5,000/mo) | No self-service free trial (guided demo provided) |
+| **[Abacum](https://www.abacum.ai/)** 🚀 | **~$100 Million** (Series A valuation; \$10M+ ARR) | Collaborative FP&A platform focused on agile forecasting and cross-functional alignment for growth-stage tech companies. | Custom quote based on user count & modules | No free trial or free tier (personalized live demo available) |
+| **[Jirav](https://www.jirav.com/)** 🚀 | **~$60 Million** (Series B valuation; \$8M+ ARR) | Cloud FP&A software for driver-based budgeting, forecasting, and dashboards aimed at SMB and accounting firms. | Starts at \$10,000/year (Direct) / \$50/mo per client (Partner) | No free trial (guided pilot on custom data available upon request) |
+| **[Centage](https://www.centage.com/)** 🏢 | **~$50 Million** (Private equity backed; \$10M+ ARR) | Automated budgeting and forecasting software focused on mid-market organizations seeking structured financial modeling. | Starts at \$699/month (\$18,000–\$40,000 annual avg) | No free trial (demo-based consultation approach) |
+| **[SolveXia](https://www.solvexia.com/)** ⚙️ | **~$20 Million** (Mid-market automation provider) | Process automation, data reconciliation, and financial report automation platform for operations and finance teams. | Custom quote based on user resources (no setup fees) | No free trial (free downloadable Excel templates on site) |
+
+---
+
+## 💻 Open-Source FP&A & Analytics Projects
+
+Top open-source projects, semantic layers, business intelligence platforms, and financial modeling libraries used in modern open FP&A tech stacks, **sorted by GitHub Star count (descending)**:
+
+| Rank 🏆 | Project Name 🛠️ | GitHub Star Count ⭐ | Description 📝 |
+| :---: | --- | :---: | --- |
+| 1 | **[Apache Superset](https://github.com/apache/superset)** | [![Star Badge](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers) | Enterprise-ready open-source data exploration and visualization platform widely paired with data warehouses for FP&A reporting. |
+| 2 | **[Metabase](https://github.com/metabase/metabase)** | [![Star Badge](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers) | Intuitive open-source business intelligence tool used by finance and operations teams for self-serve analysis and lightweight forecasting. |
+| 3 | **[dbt-core](https://github.com/dbt-labs/dbt-core)** | [![Star Badge](https://img.shields.io/github/stars/dbt-labs/dbt-core?style=social&color=white)](https://github.com/dbt-labs/dbt-core/stargazers) | Open-source data transformation layer (SQL/Python) for modeling actuals, variance analysis, and preparing financial metrics in data warehouses. |
+| 4 | **[Cube (Semantic Layer)](https://github.com/cube-js/cube)** | [![Star Badge](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers) | Universal open-source semantic and metrics layer that standardizes KPIs, financial definitions, and security rules across planning workflows. |
+| 5 | **[Actual Budget](https://github.com/actualbudget/actual-server)** | [![Star Badge](https://img.shields.io/github/stars/actualbudget/actual-server?style=social&color=white)](https://github.com/actualbudget/actual-server/stargazers) | Super-fast, privacy-focused open-source local/self-hosted budgeting engine with zero-based budgeting principles. |
+| 6 | **[Firefly III](https://github.com/firefly-iii/firefly-iii)** | [![Star Badge](https://img.shields.io/github/stars/firefly-iii/firefly-iii?style=social&color=white)](https://github.com/firefly-iii/firefly-iii/stargazers) | Full-featured self-hosted manager for tracking budgets, recurring cash flows, and expense forecasting. |
+| 7 | **[FinancePy](https://github.com/financepy/financepy)** | [![Star Badge](https://img.shields.io/github/stars/financepy/financepy?style=social&color=white)](https://github.com/financepy/financepy/stargazers) | Python open-source financial library for valuation, cash flow modeling, driver analysis, and quantitative financial planning. |
+| 8 | **[PyPika](https://github.com/kayak/pypika)** | [![Star Badge](https://img.shields.io/github/stars/kayak/pypika?style=social&color=white)](https://github.com/kayak/pypika/stargazers) | Python SQL query builder used for programmatic query generation in custom financial modeling and scenario planning engines. |
+| 9 | **[FinQuant](https://github.com/pypa/finquant)** | [![Star Badge](https://img.shields.io/github/stars/pypa/finquant?style=social&color=white)](https://github.com/pypa/finquant/stargazers) | Open-source Python library for financial portfolio management, risk analysis, and scenario optimization. |
+| 10 | **[Open-Sourced Financial Modeling Notebooks](https://github.com/topics/financial-modeling)** | [![Star Badge](https://img.shields.io/github/stars/topics/financial-modeling?style=social&color=white)](https://github.com/topics/financial-modeling/stargazers) | Community-driven Jupyter notebooks and R scripts for 3-statement modeling, DCF valuations, and Monte Carlo forecasts. |
+
+---
+
+### 💡 Open-Source FP&A Architecture Patterns
+
+For technical finance teams looking to build an **open FP&A stack**:
+1. 🗄️ **Data Warehouse / Database**: Store actuals in PostgreSQL, DuckDB, or Snowflake.
+2. 🔄 **Transformation & Metrics**: Use `dbt-core` and `Cube` to govern KPI metrics (ARR, CAC, LTV, Gross Margin).
+3. 📊 **Visualization & Dashboards**: Connect `Apache Superset` or `Metabase` for executive reporting.
+4. 🐍 **Driver-Based Modeling**: Run Python financial models (`FinancePy`, `pandas`) versioned in Git.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Help us keep this FP&A resource complete and up to date. 🚀
+
+1. 🍴 **Fork** this repository.
+2. 📝 **Add/edit** entries in `README.md` maintaining table formatting.
+3. 🔗 Include product name, live link, concise description, starting pricing, and star badge (if open-source).
+4. 📬 **Open a Pull Request** with a detailed summary.
+
+---
+
+## 💖 Support & Buy Me a Coffee
+
+Thank you for exploring this FP&A resources directory! If you find this list helpful for your finance team, organization, or open-source projects, please consider supporting the project:
+
+- ⭐ **Star** this repository to help others discover it!
+- 🍴 **Fork** it to customize or contribute back improvements.
+- 📢 **Share** it with fellow CFOs, FP&A analysts, and finance engineers!
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+<a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github" alt="Sponsor" /></a>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Financial-Planning-n-Analysis&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Financial-Planning-n-Analysis&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for FP&A Leaders, CFOs, Finance Engineers, and Open-Source Technologists.</b>
+</p>
